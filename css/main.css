@@ -14,7 +14,6 @@ html {
   margin: 50px auto;
   position: relative;
   width: 300px;
-
   background: transparent url("../images/clock-face.svg") no-repeat center center;
 }
 
@@ -37,15 +36,20 @@ html {
   animation: hand-rotate .5s linear infinite;
 }
 
-.hand-four {
+.hand-hour {
   animation: hand-rotate 6s linear infinite;
 }
 
 @keyframes hand-rotate {
-  0%{
+
+  0% {
+
     transform: rotate(0deg);
   }
+
   100% {
-    transform: rotate(360deg)
+
+    transform: rotate(360deg);
   }
+
 }
